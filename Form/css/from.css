@@ -1,0 +1,25 @@
+body{
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    margin:20px;
+}
+
+
+
+.form-group {
+    display: flex;
+    align-items: flex-start; /* change from center */
+    margin-bottom: 12px;
+}
+.form-group label {
+    flex-basis: 200px;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 6px; /* adjust for multi-line inputs */
+}
+
+
+ label { display:block; 
+         margin-bottom:4px; }
+
+ 
